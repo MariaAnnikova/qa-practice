@@ -1,14 +1,14 @@
 let newString = "Це буде рядок"
-console.log (typeof(newString))
+console.log (newString)
 
 let newNumber = 113
-console.log (typeof(newNumber))
+console.log (newNumber)
 
 let newBoolean = true
-console.log ("Це буде булеве значення:", typeof(newBoolean))
+console.log ("Це буде булеве значення:", newBoolean)
 
 let newNull = null
-console.log (typeof(newNull))
+console.log (newNull)
 
 let newUndefined
 console.log (newUndefined)
