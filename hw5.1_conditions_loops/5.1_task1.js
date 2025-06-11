@@ -1,7 +1,10 @@
 let averageGrade = 91;
 let message = "Ваш середній бал: ";
 
-if (averageGrade < 60) {
+if (averageGrade < 0 || averageGrade > 100) {
+  message += "Невірне значення бала";
+}
+ else if (averageGrade < 60) {
   message += "Незадовільно";
 } else if (averageGrade <= 70) {
   message += "Задовільно";
@@ -11,8 +14,5 @@ if (averageGrade < 60) {
   message += "Дуже добре";
 } else if (averageGrade <= 100) {
   message += "Відмінно";
-} else {
-  message = "Невірне значення бала";
-}
-
+} 
 console.log(message);

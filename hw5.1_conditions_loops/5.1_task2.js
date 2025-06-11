@@ -1,7 +1,10 @@
-let averageGrade2 = 100;
+let averageGrade2 = 101;
 let message2 = "Ваш середній бал: ";
 
 switch (true) {
+  case (averageGrade2 < 0 || averageGrade2 > 100): 
+  message2 += "Невірне значення бала";
+  break;
   case (averageGrade2 < 60):
     message2 += "Незадовільно"
     break;
@@ -17,7 +20,5 @@ switch (true) {
   case (averageGrade2 <= 100):
     message2 += "Відмінно"
     break;
-  default:
-    message2 = "Невірне значення бала";
 }
 console.log(message2)
