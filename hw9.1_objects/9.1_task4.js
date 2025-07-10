@@ -1,10 +1,10 @@
 let person = {
-  firstname: "Maria",
-  lastname: "Annikova",
-  age: 32
+	firstname: 'Maria',
+	lastname: 'Annikova',
+	age: 32,
 };
 
-person.email = "mary.annikova@gmail.com";
+person.email = 'mary.annikova@gmail.com';
 delete person.age;
 
-console.log(person)
+console.log(person);

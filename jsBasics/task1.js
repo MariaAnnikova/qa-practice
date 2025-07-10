@@ -1,14 +1,14 @@
-let newString = "Це буде рядок"
-console.log (newString)
+let newString = 'Це буде рядок';
+console.log(newString);
 
-let newNumber = 113
-console.log (newNumber)
+let newNumber = 113;
+console.log(newNumber);
 
-let newBoolean = true
-console.log ("Це буде булеве значення:", newBoolean)
+let newBoolean = true;
+console.log('Це буде булеве значення:', newBoolean);
 
-let newNull = null
-console.log (newNull)
+let newNull = null;
+console.log(newNull);
 
-let newUndefined
-console.log (newUndefined)
+let newUndefined;
+console.log(newUndefined);

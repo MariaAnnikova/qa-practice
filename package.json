@@ -1,24 +1,34 @@
 {
-  "name": "qa-practice",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MariaAnnikova/qa-practice.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MariaAnnikova/qa-practice/issues"
-  },
-  "homepage": "https://github.com/MariaAnnikova/qa-practice#readme",
-  "dependencies": {
-    "chalk": "^5.4.1"
-  },
-  "type": "module"
+	"name": "qa-practice",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky",
+    "lint": "npx eslint --fix ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MariaAnnikova/qa-practice.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/MariaAnnikova/qa-practice/issues"
+	},
+	"homepage": "https://github.com/MariaAnnikova/qa-practice#readme",
+	"dependencies": {
+		"chalk": "^5.4.1"
+	},
+	"type": "module",
+	"devDependencies": {
+		"eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "husky": "^8.0.3",
+    "prettier": "3.0.3"
+  }
+  
 }
