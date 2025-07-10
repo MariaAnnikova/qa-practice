@@ -1,18 +1,18 @@
-//Function Declaration: 
+//Function Declaration:
 
 function getArea(width, height) {
-return width * height;
-};
-console.log (getArea(10, 5))
+	return width * height;
+}
+console.log(getArea(10, 5));
 
 //Function Expression:
 
 const getArea2 = function (width, height) {
-return width * height;
+	return width * height;
 };
-console.log (getArea(23, 5))
+console.log(getArea(23, 5));
 
 //Arrow Function:
 
-const getArea3 = (width, height) => width * height
-console.log (getArea(100, 5))
+const getArea3 = (width, height) => width * height;
+console.log(getArea(100, 5));
